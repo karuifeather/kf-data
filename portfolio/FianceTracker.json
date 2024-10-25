@@ -1,0 +1,12 @@
+{
+  "title": "Finance Tracker",
+  "description": "A comprehensive app designed to assist users in managing personal finances, tracking spending, and setting budget goals.",
+  "techStack": ["React", "Node.js", "MongoDB"],
+  "githubLink": "https://github.com/karuifeather/FinanceTracker",
+  "liveLink": "https://financetracker.com",
+  "images": [
+    "/images/portfolio/finance-tracker-image1.jpg",
+    "/images/portfolio/finance-tracker-image2.jpg"
+  ],
+  "blogContent": "markdowns/FinanceTracker.md"
+}

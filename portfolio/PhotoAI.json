@@ -1,0 +1,12 @@
+{
+  "title": "Photo AI",
+  "description": "An AI-based system designed for photographers to automatically categorize and tag their photo collections using machine learning.",
+  "techStack": ["Python", "TensorFlow", "OpenCV"],
+  "githubLink": "https://github.com/yourusername/PhotoAI",
+  "liveLink": "https://photoai.com",
+  "images": [
+    "/images/portfolio/photo-ai-image1.jpg",
+    "/images/portfolio/photo-ai-image2.jpg"
+  ],
+  "blogContent": "markdowns/PhotoAI.md"
+}

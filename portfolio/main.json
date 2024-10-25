@@ -1,0 +1,20 @@
+[
+  {
+    "id": "FinanceTracker",
+    "title": "Finance Tracker",
+    "summary": "A web application to help users manage personal finances and track expenses.",
+    "thumbnail": "/images/portfolio/finance-tracker-thumb.jpg"
+  },
+  {
+    "id": "PhotoAI",
+    "title": "Photo AI",
+    "summary": "An AI-powered tool for automatic photo categorization and tagging.",
+    "thumbnail": "/images/portfolio/photo-ai-thumb.jpg"
+  },
+  {
+    "id": "ShopEasy",
+    "title": "ShopEasy",
+    "summary": "A full-stack e-commerce platform with features for sellers and buyers.",
+    "thumbnail": "/images/portfolio/shopeasy-thumb.jpg"
+  }
+]

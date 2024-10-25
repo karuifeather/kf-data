@@ -1,0 +1,12 @@
+{
+  "title": "ShopEasy",
+  "description": "A user-friendly e-commerce platform providing a seamless shopping experience, with functionalities for buyers and sellers.",
+  "techStack": ["Angular", "NestJS", "PostgreSQL"],
+  "githubLink": "https://github.com/yourusername/ShopEasy",
+  "liveLink": "https://shopeasy.com",
+  "images": [
+    "/images/portfolio/shopeasy-image1.jpg",
+    "/images/portfolio/shopeasy-image2.jpg"
+  ],
+  "blogContent": "markdowns/ShopEasy.md"
+}

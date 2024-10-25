@@ -1,0 +1,22 @@
+[
+  {
+    "id": "LifeAndInterests",
+    "title": "Life & Interests",
+    "description": "Travel stories, photography insights, and outdoor adventures."
+  },
+  {
+    "id": "ComputerTechnologyTools",
+    "title": "Computer Technology Tools",
+    "description": "Reviews and guides on productivity tools, cloud platforms, and development environments."
+  },
+  {
+    "id": "SoftwareEngineering",
+    "title": "Software Engineering",
+    "description": "Coding tutorials, project deep dives, and insights into software design."
+  },
+  {
+    "id": "GeneralTechAndDevelopment",
+    "title": "General Tech & Development",
+    "description": "Exploring tech trends, security basics, and architecture designs."
+  }
+]

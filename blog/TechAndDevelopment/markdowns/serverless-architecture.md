@@ -8,7 +8,7 @@ Serverless architecture has rapidly become a popular approach for building scala
 
 This article explores the fundamentals of serverless architecture, its benefits, potential drawbacks, and how to make the most of it in real-world applications.
 
-## What is Serverless Architecture?
+## What is Serverless Architecture??
 
 Serverless architecture is a cloud-computing model where the cloud provider manages the infrastructure, automatically allocating resources based on application demand. This model is primarily event-driven, with functions executing in response to events such as HTTP requests, database changes, or message queues.
 

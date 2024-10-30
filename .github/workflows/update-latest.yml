@@ -2,8 +2,8 @@ name: Update Latest Articles
 
 on:
   push:
-    paths:
-      - 'blog/**'
+    branches:
+      - main
 
 jobs:
   update-latest:

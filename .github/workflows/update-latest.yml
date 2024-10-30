@@ -23,7 +23,7 @@ jobs:
           node-version: '20'
 
       - name: Run Update Script
-        run: node scripts/update-latest.js
+        run: node scripts/updateLatest.js
 
       - name: Commit and Push Changes
         run: |

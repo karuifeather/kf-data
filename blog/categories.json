@@ -15,8 +15,8 @@
     "description": "Coding tutorials, project deep dives, and insights into software design."
   },
   {
-    "id": "GeneralTechAndDevelopment",
-    "title": "General Tech & Development",
+    "id": "TechAndDevelopment",
+    "title": "Tech & Development",
     "description": "Exploring tech trends, security basics, and architecture designs."
   }
 ]

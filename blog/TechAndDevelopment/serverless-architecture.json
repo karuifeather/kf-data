@@ -11,13 +11,13 @@
     "API Gateway"
   ],
   "summary": "Exploring the pros and cons of serverless architecture and its impact on modern web development.",
-  "thumbnail": "/images/GeneralTechAndDevelopment/serverless-architecture-image1.jpg",
+  "thumbnail": "/images/TechAndDevelopment/serverless-architecture-image1.jpg",
   "images": [
-    "/images/GeneralTechAndDevelopment/serverless-architecture-image1.jpg",
-    "/images/GeneralTechAndDevelopment/serverless-architecture-image2.jpg",
-    "/images/GeneralTechAndDevelopment/serverless-architecture-image3.jpg"
+    "/images/TechAndDevelopment/serverless-architecture-image1.jpg",
+    "/images/TechAndDevelopment/serverless-architecture-image2.jpg",
+    "/images/TechAndDevelopment/serverless-architecture-image3.jpg"
   ],
   "content": "markdowns/serverless-architecture.md",
-  "category": "GeneralTechAndDevelopment",
+  "category": "TechAndDevelopment",
   "tags": ["Serverless", "Cloud Computing", "Scalability", "Backend"]
 }

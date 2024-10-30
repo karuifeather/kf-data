@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "title": "The Rise of Serverless Architecture: Pros and Cons for Developers",
+    "keywords": [
+      "Serverless",
+      "Architecture",
+      "Cloud Computing",
+      "AWS Lambda",
+      "API Gateway"
+    ],
+    "tags": [
+      "Serverless",
+      "Cloud Computing",
+      "Scalability",
+      "Backend"
+    ],
+    "thumbnail": "/images/TechAndDevelopment/serverless-architecture-image1.jpg",
+    "category": "TechAndDevelopment",
+    "date": "2024-10-22T00:00:00.000Z"
+  }
+]

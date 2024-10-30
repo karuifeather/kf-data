@@ -22,9 +22,6 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install Dependencies
-        run: npm install
-
       - name: Run Update Script
         run: node scripts/update-latest.js
 

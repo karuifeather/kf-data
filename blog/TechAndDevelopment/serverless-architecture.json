@@ -1,6 +1,6 @@
 {
   "title": "The Rise of Serverless Architecture: Pros and Cons for Developers",
-  "author": "Your Name",
+  "author": "Aashaya Aryal",
   "date": "2024-10-22",
   "description": "A comprehensive look at serverless architecture, covering its advantages, drawbacks, and best practices for implementation.",
   "keywords": [
@@ -11,12 +11,8 @@
     "API Gateway"
   ],
   "summary": "Exploring the pros and cons of serverless architecture and its impact on modern web development.",
-  "thumbnail": "/images/TechAndDevelopment/serverless-architecture-image1.jpg",
-  "images": [
-    "/images/TechAndDevelopment/serverless-architecture-image1.jpg",
-    "/images/TechAndDevelopment/serverless-architecture-image2.jpg",
-    "/images/TechAndDevelopment/serverless-architecture-image3.jpg"
-  ],
+  "thumbnail": "/images/TechAndDevelopment/blog-aws-thumb.png",
+  "images": ["/images/TechAndDevelopment/blog-aws-main.png"],
   "content": "markdowns/serverless-architecture.md",
   "category": "TechAndDevelopment",
   "tags": ["Serverless", "Cloud Computing", "Scalability", "Backend"]

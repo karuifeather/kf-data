@@ -1,6 +1,29 @@
+---
+title: 'The Rise of Serverless Architecture: Pros and Cons for Developers'
+author: 'Your Name'
+date: '2024-10-22'
+description: 'A comprehensive look at serverless architecture, covering its advantages, drawbacks, and best practices for implementation.'
+keywords:
+  - 'Serverless'
+  - 'Architecture'
+  - 'Cloud Computing'
+  - 'AWS Lambda'
+  - 'API Gateway'
+summary: 'Exploring the pros and cons of serverless architecture and its impact on modern web development.'
+thumbnail: '/images/TechAndDevelopment/blog-aws-thumb.png'
+images: '/images/TechAndDevelopment/blog-aws-main.png'
+content: 'markdowns/serverless-architecture.md'
+category: 'TechAndDevelopment'
+tags:
+  - 'Serverless'
+  - 'Cloud Computing'
+  - 'Scalability'
+  - 'Backend'
+---
+
 # The Rise of Serverless Architecture: Pros and Cons for Developers
 
-![Serverless Architecture Diagram](/images/TechAndDevelopment/serverless-architecture-image1.jpg)
+![Serverless Architecture Diagram](/images/TechAndDevelopment/blog-aws-arch.png)
 
 ## Introduction
 
@@ -28,7 +51,7 @@ Serverless architecture offers several compelling benefits:
 
 Serverless functions scale automatically, handling sudden traffic spikes without the need for manual intervention. This scalability is especially useful for applications with variable workloads, as resources are provisioned dynamically.
 
-![Serverless vs. Traditional Architecture](/images/TechAndDevelopment/serverless-architecture-image2.jpg)
+![Serverless vs. Traditional Architecture](/images/TechAndDevelopment/blog-aws-main.png)
 
 ### 2. **Cost Efficiency**
 
@@ -87,5 +110,3 @@ As serverless technology continues to evolve, its role in modern development wil
 ---
 
 By embracing serverless architecture, developers can create efficient, scalable applications that adapt to user demand, making it a powerful choice in the era of cloud computing.
-
-![AWS Lambda Workflow](/images/TechAndDevelopment/serverless-architecture-image3.jpg)

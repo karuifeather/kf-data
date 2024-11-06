@@ -1,0 +1,7 @@
+.env
+**/node_modules
+
+**/images/*.png
+**/images/*.jpg
+
+firebase.json

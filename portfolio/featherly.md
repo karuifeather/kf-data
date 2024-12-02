@@ -1,70 +1,84 @@
 # Featherly Architecture
 
-This project is a modern web application with a frontend built using Angular and a backend written in NestJS. It is deployed using AWS services such as Lambda, API Gateway, S3, CloudFront, and Route 53.
+Welcome to **Featherly**! This project is a modern web application that offers an intuitive interface for exploring and booking tours. The frontend is built using Angular, while the backend is powered by NestJS. Deployed on AWS, Featherly uses services like Lambda, API Gateway, S3, CloudFront, and Route 53 for efficient performance, scalability, and global reach.
 
-## Architecture Overview
+## **Overview of the Architecture**
 
-### Frontend (Angular Application - `client`):
+### **Frontend (Angular Application - `client`)**
 
-More details on [client](https://github.com/karuifeather/featherly/tree/main/docs/client.md).
+The frontend is the heart of Featherly, providing users with a seamless experience for browsing tours and booking activities.
 
-- **Framework**: Built using **Angular** with **Nx** for efficient development.
+- **Framework**: We’ve used **Angular** for the frontend, with **Nx** for enhanced development capabilities.
 - **Hosting**:
-  - Hosted as a static website on **AWS S3**.
-  - Distributed globally via **AWS CloudFront** to ensure fast load times across the world.
-  - **Route 53** manages DNS for the custom domain `featherly.karuifeather.com`, routing traffic to CloudFront.
-- **Functionality**:
-  - Displays tour listings, booking details, and user reviews.
-  - Consumes backend APIs for dynamic data retrieval.
-- **Build and Deployment**:
-  - Automatically built using the `production` configuration for optimized performance and secure deployment.
-  - Deployed via **GitHub Actions** whenever changes are pushed to the `main` branch.
+  - The static website is hosted on **AWS S3**, providing scalable storage and fast delivery.
+  - To ensure a smooth global user experience, we use **AWS CloudFront** for content distribution.
+  - **Route 53** handles DNS, routing the traffic to `featherly.karuifeather.com`.
+- **Key Features**:
+  - Displays detailed tour listings, booking options, and user reviews.
+  - Integrates with the backend via API calls for dynamic data.
+- **Deployment**:
+  - Built using the `production` configuration, optimizing performance and security.
+  - Every push to the `main` branch triggers deployment through **GitHub Actions**, ensuring the site is always up-to-date.
 
-### Backend (NestJS Application - `server`:
+For more details, check out the [client documentation](https://github.com/karuifeather/featherly/tree/main/docs/client.md).
 
-More details on [server](https://github.com/karuifeather/featherly/tree/main/docs/server.md).
+### **Backend (NestJS Application - `server`)**
 
-- **Framework**: Built with **NestJS**, following a modular and service-oriented architecture.
+The backend powers the business logic and handles data storage, user authentication, and more.
+
+- **Framework**: Built with **NestJS**, a powerful framework that promotes modular architecture.
 - **Hosting**:
-  - Deployed as a serverless application using **AWS Lambda**.
-  - Backend code is packaged into a Docker image, hosted on **AWS ECR** (Elastic Container Registry), and pulled by Lambda during execution.
+  - The backend is deployed serverlessly using **AWS Lambda**.
+  - We package the backend into a Docker image and host it on **AWS ECR**, which Lambda pulls during execution.
 - **API Gateway**:
-  - **Custom Domain**: `api.featherly.karuifeather.com`, routed by **AWS API Gateway** to the Lambda function.
-  - Configured for secure communication with the frontend using CORS settings.
-- **API Docs**: Documentation done using Swagger is accessible [here](https://api.featherly.karuifeather.com/docs).
+  - The custom domain `api.featherly.karuifeather.com` is managed by **AWS API Gateway**, which securely routes requests to Lambda.
+  - CORS is configured to ensure secure communication between the frontend and backend.
+- **API Documentation**: Detailed API docs are available through Swagger at [API Docs](https://api.featherly.karuifeather.com/docs).
 
-### Deployment Process:
+For further information, visit the [server documentation](https://github.com/karuifeather/featherly/tree/main/docs/server.md).
+
+## **Deployment Process: A Seamless CI/CD Pipeline**
+
+The deployment of Featherly follows a continuous integration and continuous delivery (CI/CD) pipeline to ensure rapid and reliable updates.
 
 1. **Frontend**:
-   - Built using the Nx build pipeline and deployed to **AWS S3**.
+   - The Angular application is built using the Nx build pipeline and deployed to **AWS S3**.
 2. **Backend**:
-   - Dockerized backend is pushed to **ECR** and AWS Lambda is updated to use the new image.
+   - After the backend is Dockerized, the image is pushed to **AWS ECR**, and Lambda is updated to use the latest version.
 3. **Automated CI/CD**:
-   - **GitHub Actions** triggers the build and deployment process whenever changes are pushed to the `main` branch, ensuring continuous delivery.
+   - **GitHub Actions** handles the build and deployment process. Every push to the `main` branch triggers the deployment of both the frontend and backend applications.
 
-### Current Features
+## **Current Features**
+
+Here’s a quick overview of what’s currently available in Featherly:
 
 - **Frontend**:
-  - Displays tours, user interface with Tailwind styling.
+  - Beautifully designed user interface built with **Tailwind CSS**.
+  - Tour listings with filters, booking options, and user reviews.
 - **Backend**:
-  - API endpoints to fetch data from MongoDB.
-  - Handles user authentication and data processing.
+  - API endpoints to fetch data stored in **MongoDB**.
+  - Handles user authentication, payment processing, and tour data management.
 
-### How It All Comes Together in Production:
+## **How Featherly Comes Together in Production**
 
 - **Frontend (Client)**:
-  - Users visit the site via the domain `https://featherly.karuifeather.com`, which is served from S3 and CloudFront.
-  - API calls (like fetching tours or making bookings) are routed through `https://api.featherly.karuifeather.com`, managed by API Gateway and Lambda.
+  - Users can visit `https://featherly.karuifeather.com` to access the Angular app hosted on S3 and delivered via CloudFront.
+  - API requests (such as fetching tours or making bookings) are routed through `https://api.featherly.karuifeather.com`, managed by API Gateway and Lambda.
+  
 - **Backend (Server)**:
-  - API Gateway routes requests to the backend Lambda function.
-  - Backend handles business logic such as payment processing, fetching tour data, and managing user reviews.
+  - API Gateway routes requests to Lambda, where business logic like payment processing and data fetching occurs.
+  
 - **Automated Deployment**:
-  - GitHub Actions handles the deployment of both frontend (Angular app) and backend (NestJS app).
-  - Lambda updates and S3 deployments happen automatically after each push to the `main` branch.
+  - **GitHub Actions** ensures that changes to the frontend and backend are deployed seamlessly, with Lambda updates and S3 deployments automatically triggered after each push to `main`.
+  
 - **Global Distribution**:
-  - CloudFront ensures that the frontend is cached and served globally with low latency.
-  - API Gateway ensures scalable API access to Lambda.
+  - CloudFront caches the frontend for fast, low-latency delivery across the globe.
+  - API Gateway manages scalable access to Lambda functions for handling user interactions.
 
 ---
 
-This project is built with best practices for scalability, performance, and ease of deployment using AWS and modern web technologies.
+## **Conclusion**
+
+Featherly is a highly scalable and performant web application, leveraging modern technologies like Angular, NestJS, and AWS to deliver a smooth experience for both users and developers. Whether you’re browsing tours or handling bookings, the combination of serverless architecture and a fully automated CI/CD pipeline ensures that Featherly runs efficiently and reliably. 
+
+Check out the project on [GitHub](https://github.com/karuifeather/featherly) to learn more about how it all works or contribute to the project!

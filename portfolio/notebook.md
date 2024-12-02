@@ -1,4 +1,4 @@
-# Notebook
+# Notebook Architecture
 
 This project is a modern, browser-based web application designed for managing notebooks. It allows users to create, edit, and organize notes directly in the browser, without the need for a backend. The app utilizes local storage for saving user data and leverages client-side technologies such as React, TypeScript, and Material-UI.
 

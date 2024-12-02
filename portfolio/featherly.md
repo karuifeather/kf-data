@@ -1,4 +1,4 @@
-# Featherly Architecture
+# A Modern Web App Built with Angular, NestJS, and AWS
 
 Welcome to **Featherly**! This project is a modern web application that offers an intuitive interface for exploring and booking tours. The frontend is built using Angular, while the backend is powered by NestJS. Deployed on AWS, Featherly uses services like Lambda, API Gateway, S3, CloudFront, and Route 53 for efficient performance, scalability, and global reach.
 
